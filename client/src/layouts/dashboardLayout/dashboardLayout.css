@@ -1,0 +1,60 @@
+.dashboardLayout {
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+  height: 100%;
+  position: relative;
+
+  .menu {
+    flex: 1;
+
+    @media screen and (max-width: 760px) {
+      display: none;
+    }
+  }
+
+  .content {
+    flex: 4;
+    background-color: #12101b;
+  }
+
+  .floating-button {
+    display: none;
+  }
+
+  @media (max-width: 650px) {
+    .content {
+      margin: 0;
+      flex: 5;
+    }
+    /* Position the button in the top-left corner */
+    .floating-button {
+      position: fixed;
+      top: 80px;
+      left: 20px;
+      border-radius: 50%;
+      background-color: #605e68;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+      z-index: 1;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+    .mobile-menu {
+      flex: 1;
+      position: absolute;
+      background-color: #12101b;
+      border-radius: 20px;
+      height: calc(100% - 30px);
+      padding: 20px 15px;
+    }
+
+    /* Image inside the button */
+    .floating-button img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

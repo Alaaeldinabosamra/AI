@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e0c16;
+  color: #ececec;
+  overflow-y: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+  height: 12px; /* Set the height of the horizontal scrollbar */
+}
+
+/* Style the scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background-color: #0e0c16; /* Dark background for the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #555555; /* Dark color for the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 3px solid #0e0c16; /* Optional: add some space around the thumb */
+}
+
+/* Style the scrollbar thumb on hover (optional) */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777777; /* Lighten the thumb color when hovering */
+}
+
+/* Style the scrollbar corner (optional, for when both vertical and horizontal scrollbars appear) */
+::-webkit-scrollbar-corner {
+  background-color: #0e0c16; /* Dark color for the corner */
+}
