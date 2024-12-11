@@ -3,11 +3,11 @@
 this application small scale of Chatgpt platform using Gemini Model created by [Mongoose,React,Nodejs,Imagekit,Clerk]
 
 ## Description
-Node (framework) => for handle routes and endpoints and server side rendering \n
-React (framework) => for Building UI into sperated Components \n
-Clerk (library) => for user authentication and authorization to handle and control users \n
-Imagekit(library) => to store uploaded images and use this with APIs \n
-Mongoose (ODM) => store users sessions and chats with uploaded images in json style \n
+Node (framework) => for handle routes and endpoints and server side rendering <br>
+React (framework) => for Building UI into sperated Components <br>
+Clerk (library) => for user authentication and authorization to handle and control users <br>
+Imagekit(library) => to store uploaded images and use this with APIs <br>
+Mongoose (ODM) => store users sessions and chats with uploaded images in json style <br>
 
 ## Getting Started
 cd backend 
